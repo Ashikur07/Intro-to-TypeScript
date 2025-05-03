@@ -32,7 +32,7 @@ const user = {
     age: 23,
 }
 
-const midddleName = user?.name?.midddleName ?? "No middle name"; // optional chaining operator
+const midddleName = user?.name?.midddleNam ?? "No middle name"; // optional chaining operator
 console.log(midddleName); // No middle name
 
 
